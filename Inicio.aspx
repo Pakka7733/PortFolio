@@ -20,7 +20,11 @@
                 <asp:TextBox ID="TxtCentigrados" runat="server" CssClass="elemento"></asp:TextBox>
                 <asp:Label ID="LblFarenheit" runat="server" Text="Grados Farenheit" CssClass="elemento"></asp:Label>
                 <asp:TextBox ID="TxtFarenheit" runat="server" CssClass="elemento"></asp:TextBox>
+<<<<<<< HEAD
                 <asp:Button ID="Ejecutar" runat="server" Text="Calcular" CssClass="elemento1" OnClick="BtnCalcular_Click" />
+=======
+                <asp:Button ID="BtnCalcular" runat="server" Text="Calcular" CssClass="elemento1" OnClick="Convertir_Click" />
+>>>>>>> b4f7b410b4fd5816d131128c0d9aaeb5f62cb119
                 <asp:Button ID="BtnLimpiar" runat="server" Text="Limpiar" CssClass="elemento1" OnClick="BtnLimpiar_Click" />
              </div>
         </div>
